@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.be3b45c8.css",
-    "main.js": "/portfolio/static/js/main.bd882dc5.js",
+    "main.js": "/portfolio/static/js/main.d2a0f76f.js",
     "static/media/homana.jpg": "/portfolio/static/media/homana.9db941c7477f076d2d0a.jpg",
     "static/media/ml-prop.jpg": "/portfolio/static/media/ml-prop.69515089c98f19b45b03.jpg",
     "static/media/the-good-place.jpg": "/portfolio/static/media/the-good-place.4947f6493be399029a82.jpg",
     "static/media/resume.pdf": "/portfolio/static/media/resume.92b0e4289da189d0c158.pdf",
     "index.html": "/portfolio/index.html",
     "main.be3b45c8.css.map": "/portfolio/static/css/main.be3b45c8.css.map",
-    "main.bd882dc5.js.map": "/portfolio/static/js/main.bd882dc5.js.map"
+    "main.d2a0f76f.js.map": "/portfolio/static/js/main.d2a0f76f.js.map"
   },
   "entrypoints": [
     "static/css/main.be3b45c8.css",
-    "static/js/main.bd882dc5.js"
+    "static/js/main.d2a0f76f.js"
   ]
 }

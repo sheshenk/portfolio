@@ -10,7 +10,7 @@ const Introduction = () => {
     return (
         <VStack 
             w='full'
-            h='calc(100vh)'
+            h='100vh'
             pl={isMobile ? 12 : 48} 
             pr={isMobile ? 12 : 48} 
             spacing={isMobile ? 6 : 12} 

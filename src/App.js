@@ -38,7 +38,6 @@ function App() {
         <VStack w='full' minH='100vh'
           // align='baseline'
          >
-          <Box height={isMobile ? 24 : 0}/>
           <Introduction/>
           {/* <AboutMe/> */}
           {/* <Box height={48}/> */}

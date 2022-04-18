@@ -6,7 +6,7 @@ const Experience = ({title, company, duration, bullets, stack}) => {
 
     const bulletList = bullets.map(t => {
         return (
-            <Text align='left' fontSize={24} opacity={0.7}>{t}</Text>
+            <Text align='left' fontSize={isMobile ? 18 : 24} opacity={0.7}>{t}</Text>
         )
     })
 

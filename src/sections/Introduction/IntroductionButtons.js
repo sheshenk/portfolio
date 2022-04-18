@@ -1,4 +1,5 @@
 import { Button, Wrap, Spacer } from "@chakra-ui/react";
+import { isMobile } from "react-device-detect";
 import { FaGithub, FaLinkedin, FaPaperclip } from "react-icons/fa";
 import resume from '../../data/resume.pdf'
 
@@ -24,7 +25,7 @@ const introductionLinks = [
 ].map(item => {
     return (
         <a href={item.link} target='_blank' rel='noreferrer'>
-            <Button size='lg' colorScheme={item.colorScheme} leftIcon={item.icon}>
+            <Button size={isMobile ? 'md' : 'lg'} colorScheme={item.colorScheme} leftIcon={item.icon}>
             {item.name}
         </Button>
         </a>

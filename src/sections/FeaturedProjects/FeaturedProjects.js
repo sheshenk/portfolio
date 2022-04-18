@@ -29,7 +29,7 @@ const FeaturedProjects = () => {
             id="projects"
         >
             <VStack align='baseline' spacing={4}>
-                <Heading size='3xl'>Featured Projects.</Heading>
+                <Heading size='3xl' align='left'>Featured Projects.</Heading>
             </VStack>
             <VStack spacing={24} align='baseline' w='full'>
                 {featuredProjectList}

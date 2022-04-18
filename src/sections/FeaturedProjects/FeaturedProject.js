@@ -12,7 +12,7 @@ const FeaturedProject = ({title, appLink, description, otherLinks, stack, image}
 
     return (
         <Wrap spacing={16} align='center' w='full'>
-            <WrapItem w='45%' minW={500} order={isMobile ? 2 : 1}>
+            <WrapItem w='45%' minW={300} order={isMobile ? 2 : 1}>
                 <VStack spacing={10} align='baseline'>
                     <VStack align='baseline' spacing={4}>
                         <Link href={appLink}>
@@ -28,7 +28,7 @@ const FeaturedProject = ({title, appLink, description, otherLinks, stack, image}
                     <TechStack size={10} stack={stack}/>
                 </VStack>
             </WrapItem>
-            <WrapItem w='45%' minW={500} order={isMobile ? 1 : 2}>
+            <WrapItem w='45%' minW={300} order={isMobile ? 1 : 2}>
                 <Image src={image} w='100%'/>
             </WrapItem>
             
